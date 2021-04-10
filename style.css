@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
     min-height: 100vh;
     display: flex;
@@ -10,7 +17,9 @@ img {
     max-width: 100%;
 }
 
-#foto {}
+#foto {
+    background-image: linear-gradient(to bottom, rgb(122, 122, 153) 0%, blue 100%);    
+}   
 
 #santinho {
     height: 600px;
@@ -22,15 +31,60 @@ img {
 
 h1 {
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
+    background-color: rgb(83, 83, 212);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    text-shadow: 3px 3px 0 black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    align-self: flex;
+
 }
 
-#cargo {}
+#cargo {
+    color: white;
+    font-family: 'Concert One', cursive;
+    font-size: 45px;
+    text-shadow: 3px 2px 0 purple;
+    transform: rotate(-45deg) translate(-15px, -70px);
+    height: 0px;
 
-#slogan {}
+}
 
-#final {}
+#slogan {
+    background-color: rgb(83, 83, 212);
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 0 black;
+    height: 100px;
 
-#numero {}
+}
 
-#partido {}
+#final {
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+}
+
+#numero {
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive; 
+    text-shadow: 2px 2px 0 purple;
+
+}
+
+#partido {
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 3px 2px 0 purple;
+}
